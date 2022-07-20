@@ -55,7 +55,6 @@ export default function App() {
         setCurrentNumber((currentNumber*-1).toString())
         return
     }
-
     setCurrentNumber(currentNumber + buttonPressed)
   }
 
