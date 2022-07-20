@@ -97,8 +97,8 @@ const styles = StyleSheet.create({
     backgroundColor: "black"
   },
   resultText: {
-    color: "#282F38",
-    fontSize: 32,
+    color: "white",
+    fontSize: 40,
     fontWeight: "bold",
     padding: 12,
     textAlign: "right"
