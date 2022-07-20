@@ -52,6 +52,7 @@ export default function App() {
         calculator()
         return
       case '+/-':
+        setCurrentNumber((currentNumber*-1).toString())
         return
     }
 
@@ -78,7 +79,7 @@ export default function App() {
         </TouchableOpacity>
           : // Mapeamento dos outros botões
           <TouchableOpacity onPress={() => handleInput(button)} key={button} style={styles.button}>
-            <Text style={[styles.textButton, {color: typeof(button) === 'number' ? 'black': '#0093a6'}]}>{button}</Text>
+            <Text style={[styles.textButton, {color: typeof(button) === 'number' ? 'white': '#324965'}]}>{button}</Text>
           </TouchableOpacity>
         )}
       </View>
